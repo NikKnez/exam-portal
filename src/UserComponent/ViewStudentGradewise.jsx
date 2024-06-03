@@ -59,7 +59,7 @@ const ViewStudentGradewise = () => {
             });
 
             setTimeout(() => {
-              window.location.href = "/home";
+              window.location.href = "/";
             }, 1000); // Redirect after 3 seconds
           } else if (!res.success) {
             toast.error(res.responseMessage, {
@@ -72,7 +72,7 @@ const ViewStudentGradewise = () => {
               progress: undefined,
             });
             setTimeout(() => {
-              window.location.href = "/home";
+              window.location.href = "/";
             }, 1000); // Redirect after 3 seconds
           }
         });
@@ -89,7 +89,7 @@ const ViewStudentGradewise = () => {
           progress: undefined,
         });
         setTimeout(() => {
-          window.location.href = "/home";
+          window.location.href = "/";
         }, 1000); // Redirect after 3 seconds
       });
   };

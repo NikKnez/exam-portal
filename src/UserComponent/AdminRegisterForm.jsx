@@ -40,7 +40,7 @@ const AdminRegisterForm = () => {
             });
 
             setTimeout(() => {
-              window.location.href = "/home";
+              window.location.href = "/";
             }, 1000);
           } else if (!res.success) {
             toast.error(res.responseMessage, {
@@ -54,7 +54,7 @@ const AdminRegisterForm = () => {
             });
 
             setTimeout(() => {
-              window.location.href = "/home";
+              window.location.href = "/";
             }, 1000); // Redirect after 3 seconds
           } else {
             toast.error("It seems server is down", {
@@ -68,7 +68,7 @@ const AdminRegisterForm = () => {
             });
 
             setTimeout(() => {
-              window.location.href = "/home";
+              window.location.href = "/";
             }, 1000); // Redirect after 3 seconds
           }
         });
