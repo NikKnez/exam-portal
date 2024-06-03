@@ -85,7 +85,7 @@ const StudentExamAttempt = () => {
             });
 
             setTimeout(() => {
-              window.location.href = "/home"; // sending added exam object
+              window.location.href = "/"; // sending added exam object
             }, 2000); // Redirect after 3 seconds
           } else if (!res.success) {
             toast.error(res.responseMessage, {
@@ -98,7 +98,7 @@ const StudentExamAttempt = () => {
               progress: undefined,
             });
             setTimeout(() => {
-              window.location.href = "/home";
+              window.location.href = "/";
             }, 2000); // Redirect after 3 seconds
           } else {
             toast.error("It Seems Server is down!!!", {
@@ -111,7 +111,7 @@ const StudentExamAttempt = () => {
               progress: undefined,
             });
             setTimeout(() => {
-              window.location.href = "/home";
+              window.location.href = "/";
             }, 2000); // Redirect after 3 seconds
           }
         });
@@ -128,7 +128,7 @@ const StudentExamAttempt = () => {
           progress: undefined,
         });
         setTimeout(() => {
-          window.location.href = "/home";
+          window.location.href = "/";
         }, 1000); // Redirect after 3 seconds
       });
   };

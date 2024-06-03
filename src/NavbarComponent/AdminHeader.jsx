@@ -22,7 +22,7 @@ const AdminHeader = () => {
     sessionStorage.removeItem("active-admin");
     sessionStorage.removeItem("admin_jwtToken");
      setTimeout(() => {
-      window.location.href = "/home";
+      window.location.href = "/";
      }, 2000);
   };
 

@@ -94,7 +94,7 @@ const AddExamForm = () => {
               progress: undefined,
             });
             setTimeout(() => {
-              window.location.href = "/home";
+              window.location.href = "/";
             }, 2000); // Redirect after 3 seconds
           } else {
             toast.error("It Seems Server is down!!!", {
@@ -107,7 +107,7 @@ const AddExamForm = () => {
               progress: undefined,
             });
             setTimeout(() => {
-              window.location.href = "/home";
+              window.location.href = "/";
             }, 2000); // Redirect after 3 seconds
           }
         });
@@ -124,7 +124,7 @@ const AddExamForm = () => {
           progress: undefined,
         });
         setTimeout(() => {
-          window.location.href = "/home";
+          window.location.href = "/";
         }, 1000); // Redirect after 3 seconds
       });
     e.preventDefault();

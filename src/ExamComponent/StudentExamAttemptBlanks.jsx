@@ -119,7 +119,7 @@ const StudentExamAttemptBlanks = () => {
             });
 
             setTimeout(() => {
-              navigate("/home"); // sending added exam object
+              navigate("/"); // sending added exam object
             }, 2000); // Redirect after 3 seconds
           } else if (!res.success) {
             toast.error(res.responseMessage, {

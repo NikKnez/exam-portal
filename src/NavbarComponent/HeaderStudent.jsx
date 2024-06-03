@@ -20,7 +20,7 @@ const HeaderStudent = () => {
     sessionStorage.removeItem("active-student");
     sessionStorage.removeItem("student-jwtToken");
     setTimeout(() => {
-      window.location.href = "/home";
+      window.location.href = "/";
     }, 2000); // Redirect after 3 seconds
   };
 

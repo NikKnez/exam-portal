@@ -61,7 +61,7 @@ const AddCourseForm = () => {
             });
 
             setTimeout(() => {
-              window.location.href = "/home";
+              window.location.href = "/";
             }, 2000); // Redirect after 3 seconds
           } else if (!res.success) {
             toast.error(res.responseMessage, {
@@ -74,7 +74,7 @@ const AddCourseForm = () => {
               progress: undefined,
             });
             setTimeout(() => {
-              window.location.href = "/home";
+              window.location.href = "/";
             }, 2000); // Redirect after 3 seconds
           } else {
             toast.error("It Seems Server is down!!!", {
@@ -87,7 +87,7 @@ const AddCourseForm = () => {
               progress: undefined,
             });
             setTimeout(() => {
-              window.location.href = "/home";
+              window.location.href = "/";
             }, 2000); // Redirect after 3 seconds
           }
         });
@@ -104,7 +104,7 @@ const AddCourseForm = () => {
           progress: undefined,
         });
         setTimeout(() => {
-          window.location.href = "/home";
+          window.location.href = "/";
         }, 1000); // Redirect after 3 seconds
       });
     e.preventDefault();
